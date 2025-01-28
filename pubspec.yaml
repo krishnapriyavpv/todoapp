@@ -1,0 +1,30 @@
+name: alzpal
+description: A Flutter app to assist Alzheimer's patients with reminders, games, communication, and care info.
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+environment:
+  sdk: '^3.5.0' # Specify the Flutter SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add dependencies for packages you might need:
+  # 1. To make the app visually appealing and interactive.
+  # 2. You can also add other dependencies for features like GPS tracking, playing music, etc.
+
+  # Example dependency for state management (if needed)
+  # provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Specify assets folder where you will store any images, sounds, etc.
+  assets:
+    - assets/images/
+    - assets/sounds/
