@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  convex_bottom_bar: ^3.2.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  location: ^7.0.1
 
   # Add dependencies for packages you might need:
   # 1. To make the app visually appealing and interactive.
@@ -23,8 +27,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Specify assets folder where you will store any images, sounds, etc.
   assets:
     - assets/images/
-    - assets/sounds/
