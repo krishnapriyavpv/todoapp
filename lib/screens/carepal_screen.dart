@@ -12,7 +12,7 @@ class CarePalScreen extends StatelessWidget {
     },
     {
       'tip': 'Provide regular physical activity.',
-      'image': 'assets/images/build.png', // Local asset path
+      'image': 'assets/images/activity.png', // Local asset path
     },
     {
       'tip': 'Communicate calmly and clearly.',
@@ -128,8 +128,8 @@ class CarePalScreen extends StatelessWidget {
                             ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image.asset(
-                                "",
-                                height: 300, // Set the height of the image
+                                careTips[index]['image']!,
+                                height: 170, // Set the height of the image
                                 width: double
                                     .infinity, // Make the image cover the width of the card
                                 fit: BoxFit
